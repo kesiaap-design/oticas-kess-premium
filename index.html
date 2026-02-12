@@ -5,7 +5,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Óticas Kess Premium</title>
 
+ <style>
+.estrutura {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.estrutura h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.estrutura-sub {
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.card-img:hover img {
+    transform: scale(1.05);
+}
+
+.card-img span {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: rgba(0,0,0,0.6);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
 <style>
+  
   .logo {
   max-width: 180px;
   height: auto;
@@ -189,11 +240,41 @@ Visitar Instagram
 </a>
 </div>
   
-<img src="iamges/avenida-loja.png" alt="Fachada da loja" class="foto-secundaria">
+<section class="estrutura">
+    <h2>Conheça Nossa Estrutura</h2>
+    <p class="estrutura-sub">
+        Atendimento premium, ambiente moderno e as melhores marcas em um só lugar.
+    </p>
 
-<img src="iamges/interior-loja.png" alt="Interior da loja" class="foto-secundaria">
+    <div class="galeria">
 
-<img src="modelo.jpg" alt="Modelo usando óculos" class="modelo">
+        <div class="card-img">
+            <img src="images/modelo.jpg" alt="Modelo usando óculos">
+            <span>Estilo & Elegância</span>
+        </div>
+
+        <div class="card-img">
+            <img src="images/lentescosmeticas.jpg" alt="Lentes Cosméticas">
+            <span>Lentes Premium</span>
+        </div>
+
+        <div class="card-img">
+            <img src="images/avenida-loja.png" alt="Fachada da Loja">
+            <span>Fachada Moderna</span>
+        </div>
+
+        <div class="card-img">
+            <img src="images/interior.png" alt="Interior da Loja">
+            <span>Interior Sofisticado</span>
+        </div>
+
+    </div>
+</section>
+
+        </div>
+    </div>
+</section>
+
 
 
 
