@@ -55,13 +55,59 @@
     border-radius: 20px;
     font-size: 14px;
 }
+
+  .avaliacoes {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.avaliacoes h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.avaliacoes-sub {
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.avaliacoes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.avaliacoes-grid img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avaliacoes-grid img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.35);
+}
+
+.nota-google {
+    background: #fbbc05;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+  
 <style>
   
-  .logo {
-  max-width: 180px;
-  height: auto;
-  margin-top: 20px;
+ .logo {
+    width: 180px;
+    max-width: 100%;
 }
+
 
 .lentes {
   max-width: 300px;
@@ -149,6 +195,21 @@ h1{
     font-size:16px;
 }
 
+<section class="avaliacoes">
+  <div class="nota-google">4.9 ⭐ no Google</div>
+    <h2>⭐ Avaliações no Google</h2>
+    <p class="avaliacoes-sub">Mais de 10.000 clientes atendidos com excelência</p>
+
+    <div class="avaliacoes-grid">
+        <img src="iamges/feedback1.jpeg" alt="Avaliação Google 1">
+        <img src="iamges/feedback2.jpeg" alt="Avaliação Google 2">
+        <img src="iamges/feedback3.jpeg" alt="Avaliação Google 3">
+        <img src="iamges/feedback4.jpeg" alt="Avaliação Google 4">
+        <img src="iamges/feedback5.jpeg" alt="Avaliação Google 5">
+    </div>
+</section>
+
+  
 .footer{
     margin-top:60px;
     font-size:13px;
@@ -249,22 +310,22 @@ Visitar Instagram
     <div class="galeria">
 
         <div class="card-img">
-            <img src="images/modelo.jpg" alt="Modelo usando óculos">
+            <img src="iamges/modelo.jpg" alt="Modelo usando óculos">
             <span>Estilo & Elegância</span>
         </div>
 
         <div class="card-img">
-            <img src="images/lentescosmeticas.jpg" alt="Lentes Cosméticas">
+            <img src="iamges/lentescosmeticas.jpg" alt="Lentes Cosméticas">
             <span>Lentes Premium</span>
         </div>
 
         <div class="card-img">
-            <img src="images/avenida-loja.png" alt="Fachada da Loja">
+            <img src="iamges/avenida-loja.png" alt="Fachada da Loja">
             <span>Fachada Moderna</span>
         </div>
 
         <div class="card-img">
-            <img src="images/interior.png" alt="Interior da Loja">
+            <img src="iamges/interior.png" alt="Interior da Loja">
             <span>Interior Sofisticado</span>
         </div>
 
