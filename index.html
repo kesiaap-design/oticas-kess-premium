@@ -48,7 +48,13 @@ h1{
 
 .subtitle{
     font-size:19px;
-    margin-bottom:25px;
+    margin-bottom:15px;
+}
+
+.prova-topo{
+    margin-bottom:20px;
+    font-size:14px;
+    opacity:0.9;
 }
 
 /* ---------- BADGE ---------- */
@@ -84,6 +90,27 @@ h1{
 .insta{ background:linear-gradient(45deg,#E1306C,#F77737); color:white;}
 
 .btn:hover{ transform:scale(1.05); }
+
+/* ---------- DIFERENCIAIS ---------- */
+
+.diferenciais{
+    margin:60px 0;
+}
+
+.diferenciais-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    max-width:900px;
+    margin:30px auto;
+}
+
+.diferencial-item{
+    background:rgba(255,255,255,0.08);
+    padding:18px;
+    border-radius:15px;
+    font-size:15px;
+}
 
 /* ---------- AVALIAÇÕES ---------- */
 
@@ -197,7 +224,7 @@ h1{
 
 <img src="logo.png" alt="Óticas Kess Premium" class="logo">
 
-<a href="https://wa.me/5511947087349?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20%C3%93ticas%20Kess%20Premium%20e%20quero%20atendimento." class="float-whats">
+<a href="https://wa.me/5511947087349?text=Olá, vim pelo site da Óticas Kess Premium." class="float-whats">
 💬 WhatsApp
 </a>
 
@@ -209,16 +236,39 @@ h1{
 Cuidamos da sua visão e autoestima através de armações exclusivas e lentes premium.
 </div>
 
+<div class="prova-topo">
+⭐ 4.9 no Google • +10.000 clientes atendidos • Atendimento Especializado
+</div>
+
 <div class="badge">🔥 Até 10x sem juros</div>
 
-<a href="https://wa.me/5511947087349?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20%C3%93ticas%20Kess%20Premium%20e%20quero%20atendimento%20sobre%3A%20(1)%20Agendar%20consulta%20/%20(2)%20Or%C3%A7amento%20de%20%C3%B3culos%20/%20(3)%20Promo%C3%A7%C3%B5es%20e%20condi%C3%A7%C3%B5es%20de%20pagamento." class="btn whats">
+<a href="https://wa.me/5511947087349?text=Olá, vim pelo site da Óticas Kess Premium e quero atendimento." class="btn whats">
 Falar com nossa Equipe
 </a>
+
+<!-- DIFERENCIAIS -->
+
+<section class="diferenciais">
+<h2>Por que escolher a Kess Premium?</h2>
+
+<div class="diferenciais-grid">
+
+<div class="diferencial-item">✔ Atendimento Personalizado e Humanizado</div>
+<div class="diferencial-item">✔ Especialistas em Óculos Multifocais</div>
+<div class="diferencial-item">✔ Especialistas em Lentes de Alto Grau</div>
+<div class="diferencial-item">✔ Lentes com Filtro Blue</div>
+<div class="diferencial-item">✔ Armações Modernas e Exclusivas</div>
+<div class="diferencial-item">✔ Atendimento especializado em Itaquá</div>
+<div class="diferencial-item">✔ Fácil acesso e vaga de estacionamento</div>
+
+</div>
+</section>
 
 <!-- AVALIAÇÕES -->
 
 <section class="avaliacoes">
 <div class="nota-google">4.9 ⭐ no Google</div>
+<h2>+ de 10.000 clientes atendidos</h2>
 <h2>O que nossos clientes dizem</h2>
 
 <div class="avaliacoes-grid">
@@ -246,8 +296,6 @@ Falar com nossa Equipe
 </section>
 
 </div>
-
-<!-- RODAPÉ PROFISSIONAL -->
 
 <div class="footer">
 <strong>Óticas Kess Premium</strong>
