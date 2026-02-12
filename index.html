@@ -3,156 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Óticas Kess Premium</title>
 
- <style>
-.estrutura {
-    padding: 60px 20px;
-    text-align: center;
-}
+<title>Óticas Kess Premium | Saúde Visual com Estilo</title>
 
-.estrutura h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
+<meta name="description" content="Ótica em Itaquaquecetuba com exame de vista, lentes premium e parcelamento em até 10x sem juros. Atendimento personalizado na Óticas Kess Premium.">
 
-.estrutura-sub {
-    margin-bottom: 40px;
-    opacity: 0.8;
-}
-
-.galeria {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.card-img {
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.card-img img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    transition: 0.4s;
-}
-
-.card-img:hover img {
-    transform: scale(1.05);
-}
-
-.card-img span {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    background: rgba(0,0,0,0.6);
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 14px;
-}
-
-  .avaliacoes {
-    padding: 80px 20px;
-    text-align: center;
-}
-
-.avaliacoes h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.avaliacoes-sub {
-    opacity: 0.8;
-    margin-bottom: 40px;
-}
-
-.avaliacoes-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.avaliacoes-grid img {
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.avaliacoes-grid img:hover {
-    transform: scale(1.04);
-    box-shadow: 0 25px 50px rgba(0,0,0,0.35);
-}
-
-.nota-google {
-    background: #fbbc05;
-    display: inline-block;
-    padding: 8px 20px;
-    border-radius: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-  .galeria {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.galeria img {
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
-.logo {
-    max-width: 160px;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px auto;
-}
-  
-@media (max-width: 768px) {
-    .logo {
-        max-width: 120px;
-    }
-}
-  
 <style>
-  
 
-.lentes {
-  max-width: 300px;
-  height: auto;
-  margin: 30px auto;
-  display: block;
-}
+/* ---------- BASE ---------- */
 
-.modelo {
-  max-width: 350px;
-  height: auto;
-  display: block;
-  margin: 30px auto;
-}
-
-.foto-secundaria {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 15px;
-    margin: 20px auto;
-    display: block;
-}
-  
 body{
     margin:0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family:'Segoe UI', sans-serif;
     background: linear-gradient(135deg,#5a1f1f,#7a2b2b);
     color:white;
     text-align:center;
@@ -164,6 +26,21 @@ body{
     padding:40px 20px;
 }
 
+/* ---------- LOGO ---------- */
+
+.logo{
+    max-width:160px;
+    height:auto;
+    display:block;
+    margin:0 auto 20px auto;
+}
+
+@media (max-width:768px){
+    .logo{ max-width:120px; }
+}
+
+/* ---------- HERO ---------- */
+
 h1{
     font-size:34px;
     margin-bottom:10px;
@@ -173,6 +50,8 @@ h1{
     font-size:19px;
     margin-bottom:25px;
 }
+
+/* ---------- BADGE ---------- */
 
 .badge{
     background:gold;
@@ -184,6 +63,8 @@ h1{
     margin-bottom:25px;
     animation:pulse 1.8s infinite;
 }
+
+/* ---------- BOTÕES ---------- */
 
 .btn{
     display:block;
@@ -204,24 +85,89 @@ h1{
 
 .btn:hover{ transform:scale(1.05); }
 
-.section{ margin:70px 0; }
+/* ---------- AVALIAÇÕES ---------- */
 
-.proof{
-    background:rgba(255,255,255,0.08);
-    padding:25px;
+.avaliacoes{
+    padding:80px 20px;
+}
+
+.nota-google{
+    background:#fbbc05;
+    display:inline-block;
+    padding:8px 20px;
+    border-radius:30px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.avaliacoes-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.avaliacoes-grid img{
+    width:100%;
     border-radius:20px;
-    margin-top:30px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.25);
+    transition:0.3s;
+}
+
+.avaliacoes-grid img:hover{
+    transform:scale(1.04);
+}
+
+/* ---------- ESTRUTURA ---------- */
+
+.estrutura{
+    padding:60px 20px;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    max-width:900px;
+    margin:40px auto;
+}
+
+.galeria img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.05);
+}
+
+/* ---------- RODAPÉ ---------- */
+
+.footer{
+    background:rgba(0,0,0,0.2);
+    padding:40px 20px;
+    margin-top:60px;
+    font-size:14px;
+    line-height:1.8;
+}
+
+.footer a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer strong{
+    display:block;
+    margin-bottom:10px;
     font-size:16px;
 }
 
-
-
-  
-.footer{
-    margin-top:60px;
-    font-size:13px;
-    opacity:0.7;
-}
+/* ---------- BOTÃO FLUTUANTE ---------- */
 
 .float-whats{
     position:fixed;
@@ -243,117 +189,79 @@ h1{
     50%{ transform:scale(1.08);}
     100%{ transform:scale(1);}
 }
+
 </style>
 </head>
 
 <body>
+
 <img src="logo.png" alt="Óticas Kess Premium" class="logo">
 
-
-
-<a href="https://wa.me/5511947087349?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20%C3%93ticas%20Kess%20Premium%20e%20quero%20informa%C3%A7%C3%B5es." 
-class="float-whats">
+<a href="https://wa.me/5511947087349?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20%C3%93ticas%20Kess%20Premium%20e%20quero%20atendimento." class="float-whats">
 💬 WhatsApp
 </a>
 
-
-
 <div class="container">
 
-<h1>Óticas Kess Premium</h1>
+<h1>Saúde visual com estilo e alta performance</h1>
 
 <div class="subtitle">
-Seus óculos completos em até 10x sem juros.<br>
-Exame de vista, armações modernas e lentes premium em um só lugar.
+Cuidamos da sua visão e autoestima através de armações exclusivas e lentes premium.
 </div>
 
-<div class="badge">🔥 Condição Especial Ativa</div>
+<div class="badge">🔥 Até 10x sem juros</div>
 
 <a href="https://wa.me/5511947087349?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20%C3%93ticas%20Kess%20Premium%20e%20quero%20atendimento%20sobre%3A%20(1)%20Agendar%20consulta%20/%20(2)%20Or%C3%A7amento%20de%20%C3%B3culos%20/%20(3)%20Promo%C3%A7%C3%B5es%20e%20condi%C3%A7%C3%B5es%20de%20pagamento." class="btn whats">
 Falar com nossa Equipe
 </a>
 
-  
+<!-- AVALIAÇÕES -->
 
-<div class="section">
-<div class="proof">
 <section class="avaliacoes">
-  <div class="nota-google">4.9 ⭐ no Google</div>
-    <h2>⭐ O que nossos clientes estão falando:</h2>
-    <p class="avaliacoes-sub">Mais de 10.000 clientes atendidos com excelência</p>
+<div class="nota-google">4.9 ⭐ no Google</div>
+<h2>O que nossos clientes dizem</h2>
 
-  <div class="avaliacoes-grid">
-        <img src="iamges/feedback1.jpeg" alt="Avaliação Google 1">
-        <img src="iamges/feedback2.jpeg" alt="Avaliação Google 2">
-        <img src="iamges/feedback3.jpeg" alt="Avaliação Google 3">
-        <img src="iamges/feedback4.jpeg" alt="Avaliação Google 4">
-        <img src="iamges/feedback5.jpeg" alt="Avaliação Google 5">
-    </div>
+<div class="avaliacoes-grid">
+<img src="iamges/feedback5.jpeg">
+<img src="iamges/feedback4.jpeg">
+<img src="iamges/feedback1.jpeg">
+<img src="iamges/feedback2.jpeg">
+<img src="iamges/feedback3.jpeg">
 
 
-    </div>
+</div>
 </section>
 
-✔ Atendimento Personalizado e Humanizado<br>       ✔ Lentes com filtro Blue<br>
-✔ Especialistas em Óculos Multifocais<br>          ✔ Armações modernas e exclusivas<br>
-✔ Especialistas em lente com Alto Grau<br>         ✔ Atendimento personalizado em Itaquá<br>
-                         ✔ Fácil acesso e vaga de estacionamento
+<!-- ESTRUTURA -->
 
-
-
-</div>
-
-<div class="section">
-<a href="https://wa.me/5511947087349?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20%C3%93ticas%20Kess%20Premium%20e%20quero%20informa%C3%A7%C3%B5es%20sobre%20consulta." class="btn whats">
-Agendar exame no WhatsApp
-</a>
-
-
-<a href="https://maps.app.goo.gl/VDWgH4JsAVcVh1mv8" class="btn maps">
-Ver Localização
-</a>
-
-<a href="https://www.instagram.com/oticaskess?igsh=aXNoYXpjMjB1bWdz" class="btn insta">
-Visitar Instagram
-</a>
-</div>
-  
 <section class="estrutura">
-    <h2>Conheça Nossa Estrutura</h2>
-    <p class="estrutura-sub">
-        Atendimento premium, ambiente moderno e as melhores marcas em um só lugar.
-    </p>
+<h2>Conheça Nossa Estrutura</h2>
 
-    <div class="galeria">
+<div class="galeria">
+<img src="iamges/modelo.jpg">
+<img src="lentescosmeticas.jpg">
+<img src="iamges/avenida-loja.png">
+<img src="iamges/interior-loja.png">
+</div>
+</section>
 
-  <img src="iamges/modelo.jpg" alt="Modelo usando óculos">
-  <img src="lentescosmeticas.jpg" alt="Lentes Cosméticas">
-  <img src="iamges/avenida-loja.png" alt="Fachada da Loja">
-  <img src="iamges/interior-loja.png" alt="Interior da Loja"> 
-     
 </div>
 
-
-</section>
-
-        </div>
-    </div>
-</section>
-
-
-
+<!-- RODAPÉ PROFISSIONAL -->
 
 <div class="footer">
-© 2026 Óticas Kess Premium — Todos os direitos reservados
-</div>
+<strong>Óticas Kess Premium</strong>
 
+📍 Av Vereador João Fernandes da Silva, 274  
+Vila Virgínia - Itaquá SP  
+
+☎ <a href="tel:1146484560">11 4648-4560</a><br>
+💬 <a href="https://wa.me/5511947087349">11 94708-7349</a><br>
+📧 <a href="mailto:atendimento@oticaskesspremium.com">atendimento@oticaskesspremium.com</a>
+
+<br><br>
+© 2026 Óticas Kess Premium — Todos os direitos reservados
 </div>
 
 </body>
 </html>
-
-
-
-
-
-
