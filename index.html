@@ -112,15 +112,21 @@
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
-
+.logo {
+    max-width: 160px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+  
+@media (max-width: 768px) {
+    .logo {
+        max-width: 120px;
+    }
+}
   
 <style>
   
- .logo {
-    width: 180px;
-    max-width: 200px;
-}
-
 
 .lentes {
   max-width: 300px;
@@ -213,7 +219,7 @@ h1{
     <h2>⭐ Avaliações no Google</h2>
     <p class="avaliacoes-sub">Mais de 10.000 clientes atendidos com excelência</p>
 
-    <div class="avaliacoes-grid">
+  <div class="avaliacoes-grid">
         <img src="iamges/feedback1.jpeg" alt="Avaliação Google 1">
         <img src="iamges/feedback2.jpeg" alt="Avaliação Google 2">
         <img src="iamges/feedback3.jpeg" alt="Avaliação Google 3">
